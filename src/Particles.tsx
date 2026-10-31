@@ -142,7 +142,7 @@ export function Particles() {
 
 const [{ count, size, scale, speed, push, swirl, step, palette, attract, follow }, set] = useControls(() => ({
   palette: { options: Object.keys(PALETTES), value: 'Nebula' },
-  count: { value: 1990, min: 1000, max: 300000, step: 1000 },
+  count: { value: 22000, min: 1000, max: 300000, step: 1000 },
   size: { value: 10, min: 1, max: 40 },
   scale: { value: 0.5, min: 0.1, max: 1.5 },
   speed: { value: 0, min: 0, max: 0.6 },
